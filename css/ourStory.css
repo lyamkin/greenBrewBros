@@ -1,0 +1,43 @@
+.text-justify {
+    text-align: justify;
+  }
+  
+  .location-bg {
+    background-image: url(../img/GBB-red-house.jpg);
+    background-color: #609267;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+    height: 60vh;
+    color: white;
+  }
+  
+  .textOnImg {
+    color: white;
+  }
+  
+  #btn-location {
+    color: white;
+    border-radius: 8px;
+    padding: 15px 50px;
+  }
+  
+  #btn-location:hover {
+    color: white;
+    font-size: 1.2rem;
+    background-color: #003f08;
+  }
+  
+  .mascot {
+    float: left;
+    padding: 25px 0 25px;
+    margin-right: 20px;
+  }
+  
+  @media only screen and (max-width: 768px){
+    .card {
+        margin-bottom: 25px;
+    }
+  }
+  

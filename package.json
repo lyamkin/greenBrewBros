@@ -1,0 +1,19 @@
+{
+  "name": "jabbottwebdesigngreenbrewbros",
+  "version": "1.0.0",
+  "description": "Group project for ipd-24 web design class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alyamkin/jAbbottWebDesignGreenBrewBros.git"
+  },
+  "author": "Andrey Lyamkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alyamkin/jAbbottWebDesignGreenBrewBros/issues"
+  },
+  "homepage": "https://github.com/alyamkin/jAbbottWebDesignGreenBrewBros#readme"
+}

@@ -1,0 +1,9 @@
+/* Typography */
+h1,
+h2 {
+  font-family: "Prompt", sans-serif;
+}
+
+.text-bold-custom {
+  font-weight: 700;
+}

@@ -1,0 +1,375 @@
+body {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1024px;
+}
+
+.landing {
+    background-image: url("../img/backdropResized.png");
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    padding: 80px;
+    background-position: bottom;
+}
+
+.frame {
+    padding: 30px 60px 30px 50px;
+    height: 450px;
+    box-shadow: 0px 6px 15px 3px rgba(34, 33, 33, 0.41);
+}
+
+.whiteLogo {
+    display: none;
+}
+
+.logo {
+    width: 110px;
+}
+
+.myNavCss {
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.T-care {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.T-nature {
+    font-size: 50px;
+    font-weight: bold;
+    color: #2e923c;
+    line-height: 0.8;
+}
+
+.T-mission {
+    font-size: 50px;
+    font-weight: 500;
+    color: #ed9102;
+    line-height: 0.8;
+}
+
+a.btn-readMore {
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 5px 0.3em 0.3em 0;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    background-color: #2e923c;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+a.btn-readMore:hover {
+    background-color: #ed9102;
+}
+
+.carousel-section {
+    max-width: 1024px;
+    background-color: #ed9102;
+    height: 530px;
+    padding: 80px 60px;
+}
+
+.newCarousel-section {
+    display: none;
+}
+
+.green-border {
+    width: 880px;
+    height: 345px;
+    border: 4px dashed #2e923c;
+    margin: auto;
+    padding: 30px 40px;
+}
+
+.carousel-img-size {
+    width: 350px !important;
+    height: 269px !important;
+    position: relative;
+    left: 420px;
+    top: 0px;
+}
+
+.carousel-height {
+    height: 100%;
+}
+
+.carouselCap-myCss {
+    text-align: left;
+    width: 30%;
+    color: black;
+}
+
+.carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-left: 11px;
+}
+
+ol.carousel-indicators li.active {
+    background-color: #2e923c !important;
+}
+
+ol.indicators-position {
+    justify-content: flex-end;
+    padding-right: 38px;
+}
+
+.getDirection {
+    color: black;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.fa-arrow-circle-right {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+a:hover {
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #2e923c;
+}
+
+.hero-section {
+    background-image: url("../img/hero.png");
+    height: 910px;
+    max-width: 1024px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.transparentBackground {
+    margin-bottom: 60px;
+    height: 210px;
+    width: 750px;
+    background-color: #ffffff31;
+}
+
+.heroText {
+    padding: 15px 80px 15px 80px;
+    color: #ffffff;
+    font-size: 52px;
+    font-weight: lighter;
+    line-height: 68px;
+}
+
+.heroTextBold {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.cardContainer {
+    margin: 8% 2% 8% 10%;
+    position: relative;
+}
+
+.cardImage img {
+    width: 220px;
+    height: 340px;
+    transition: 0.4s;
+}
+
+.cardImage img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.cardsBtn {
+    background-color: black;
+    color: white;
+    width: 120px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    position: absolute;
+    top: 25px;
+    left: 70px;
+}
+
+.cardText {
+    padding: 25px 0;
+}
+
+.cardText p {
+    font-size: 21px;
+    font-weight: lighter;
+}
+
+/* -----------------------------------------------------------------------------------------------------
+--------------------------------------Media Query---------------------------------------------------------------
+----------------------------------------------------------------------------------------------------- */
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    
+}
+
+
+/* 
+// Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    body > div > div.landing > div > div.whiteLogo > a > img{
+        display: none;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    body {
+        font-size: 1.5em;
+    }
+
+    .Simsam {
+        display: none;
+    }
+
+    .landing {
+        background-image: none;
+
+        margin-bottom: 60px;
+        overflow: hidden;
+    }
+
+    .frame {
+        padding: 30px 60px 30px 50px;
+        height: 100vh;
+        box-shadow: 0px 6px 15px 3px rgba(34, 33, 33, 0.41);
+        background-image: url("../img/beer3.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        overflow: hidden;
+    }
+
+    body > div > div.landing > div > div.whiteLogo > h2 {
+        display: block !important;
+        text-align: center;
+        color: #ffffff;
+        padding: 20px 0;
+    } 
+   
+
+    div.landing .landingText {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+        width: 170px;
+    }
+
+
+
+
+    .whiteLogo{
+      display: block;
+    }
+  
+    body > div > div.landing > div > div.whiteLogo > a > img{
+        width: 110px;
+         margin-left: 260px;
+    }
+
+
+
+
+
+
+   
+
+    body>div>div.landing>div>a>img {
+        width: 110px;
+        margin-left: 315px;
+    }
+
+    a.nav-link {
+        color: white !important;
+        background-color: #ed9102;
+        font-size: larger;
+    }
+
+    .myToggler {
+        color: #ed9102;
+        background-color: none;
+        border: none;
+        font-size: 65px;
+        outline: none;
+        margin: auto;
+    }
+
+    .carousel-section {
+        display: none;
+    }
+
+    .newCarousel-section {
+        display: block;
+        margin-top: 60px !important;
+    }
+
+    .nwecCarousel-img-size {
+        width: 250px;
+    }
+
+    .carousel-item div.carCap-myCss {
+        background-color: #ffffff80;
+        color: #000;
+    }
+
+    .fa-chevron-circle-left,
+    .fa-chevron-circle-right {
+        color: #ffffff;
+        font-size: 44px;
+    }
+
+    .cardContainer {
+        display: flex;
+        justify-content: center;
+        margin: 8% 2% 8% 10%;
+        /* position: relative; */
+    }
+
+    .cardImage {
+        text-align: center;
+    }
+
+    .cardText h3 {
+        padding: 25px 0;
+        margin-right: 110px;
+
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .cardsBtn {
+        background-color: black;
+        color: white;
+        width: 120px;
+        border: none;
+        outline: none;
+        padding: 5px;
+        position: relative;
+        left: -175px;
+        top: -163px;
+    }
+ 
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}

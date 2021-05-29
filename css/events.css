@@ -1,0 +1,66 @@
+/* Typography */
+h1,
+h2 {
+  font-family: "Prompt", sans-serif;
+}
+
+/* Events section */
+
+.event-showcase-1 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../img/event1-1280.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.event-showcase-2 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../img/event2-1280.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.event-city {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.5rem;
+}
+
+.event-name {
+  text-transform: uppercase;
+}
+
+.event-btn-bg {
+  text-align: center;
+  padding: 0.5rem;
+  width: 200px;
+  border-radius: 3px;
+}
+.event-btn-bg-1 {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.2)
+  );
+}
+.event-btn-bg-2 {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)
+  );
+}
+
+/* showcase button */
+.btn-event {
+  color: #279135;
+  font-size: 1.2rem;
+}
+.btn-event:hover {
+  color: white;
+}
+
+/* event details */
+.event-detail-bold {
+  font-weight: 700;
+  margin-right: 10px;
+}

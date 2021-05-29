@@ -1,0 +1,27 @@
+/* Margin body */
+
+.margeTop {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.margeBot {
+  margin-bottom: 3rem;
+}
+
+/* Carousel CSS */
+
+.carousel {
+  width: 40rem;
+  height: 30rem;
+}
+.carousel-inner > .carousel-item > img {
+  width: 50rem;
+  height: 30rem;
+}
+
+/* disclaimer text */
+
+.disclaimer {
+  font-size: x-small;
+}
